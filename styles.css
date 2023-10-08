@@ -1,0 +1,58 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Create a container for the brand cards using a flexbox layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Style the brand card */
+.brand-card {
+    flex: 1;
+    max-width: 300px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the card header */
+.card-header h2 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+/* Style the card image */
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the card description */
+.card-description p {
+    color: #555;
+}
+
+/* Style the "Learn More" button */
+.card-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card-button a:hover {
+    background-color: #0056b3;
+}
